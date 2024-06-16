@@ -3,7 +3,9 @@ import torch
 from transformers import pipeline, logging, GenerationConfig, AutoModelForSeq2SeqLM
 from langchain_huggingface import HuggingFacePipeline
 from extras_and_licenses.forward_listener import GenerateListener
+from accelerate.utils import write_basic_config
 
+write_basic_config(mixed_precision='fp16')
 logging.set_verbosity_error()
 
 model_kwargs = {"do_sample": True, "temperature": 0.4, "max_length": 4096}
