@@ -1,5 +1,5 @@
 # LangChain-Bot
-A chat bot capable of using tools and remembering chat history with conversation buffers
+A Llama-2 chat bot capable of using tools and remembering chat history with conversation buffers
 
 # Local Development Setup
 Before starting, these components must be installed (preferably in an enviornment):
