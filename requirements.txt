@@ -1,0 +1,9 @@
+wheel
+transformers
+langchain
+langchain-community
+pydantic
+accelerate
+optimum
+auto-gptq
+torch=2.2.1+cu121 --index-url https://download.pytorch.org/whl/cu121
