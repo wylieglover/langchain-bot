@@ -3,7 +3,7 @@ A Llama-2 chat bot capable of using tools and remembering chat history with conv
 
 # Local Development Setup
 Before starting, these components must be installed (preferably in an enviornment):
-- cuda v12.1 
+- cuda v12.1 (for torch w/ cuda and auto-gptq support to quantize models)
 - python
 - pip
 
